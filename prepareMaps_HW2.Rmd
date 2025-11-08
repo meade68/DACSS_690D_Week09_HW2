@@ -25,12 +25,12 @@ somerville_bound <- st_read(Link, layer = "somerville_bound")
 
 ```
 
-```{}
+```         
 ```
 
 # Crime BG- interactive
 
-```{}
+```         
 ```
 
 ```{r}
@@ -72,7 +72,7 @@ Block_property <- leaflet() %>%
   addCircleMarkers(
     data = apt_old,                     # sf POINT layer
     radius = 6,
-    fillColor = "yellow",
+    fillColor = "grey",
     fillOpacity = 0.9,
     color = "black",
     weight = 1,
